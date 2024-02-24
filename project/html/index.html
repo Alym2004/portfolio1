@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Portfolio</title>
+</head>
+<body>
+  <header>
+    <h1>Alym Yrysmamatov</h1>
+  </header>
+  <section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p class="line-height-example">I am Alym Yrysmamatov Zhyldyzbekovich. I was born 21.06.2004 in Bishkek. I am the eldest in the family. Studied at school number 50 in Kyzyl - Asker. After graduation entered AIU faculty Computer science and engeneering. Since I did not know English, I had to study a preparatory course. I am currently a first year student in the COMSEP23 group.   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et accusamus eius minima? Voluptatibus, culpa. Harum vel quibusdam dolores recusandae sit quam, odio soluta illum praesentium hic inventore. Rerum, aspernatur tenetur?</p>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <h2>About programming languages</h2>
+        <h2>Java</h3>
+        <!-- <p>Java is a versatile and robust programming language that was developed by Sun Microsystems in the mid-1990s and is currently owned by Oracle. It is widely used across different domains such as web development, mobile app development, and enterprise software.</p> -->
+        <p>My first programming languge is Java.Now i am learning Java, because Java is the main programming language for us</p>
+        <h2>Python</h4>
+        <p>Python was second programming language. In a mounth we did a project on exchanging volutes. After i did not code in Python</p>
+        <h2>HTML, CSS, JS</h5>
+        <p>In this semester we are learning HTML, CSS, JS. Now I am doing this portfolio</p>
+        </div>
+</section>
+  <main>
+    <section id="projects">
+      <div class="project">
+        <button class="show-photo" onclick="showPhoto('alatoo.png')">Photo</button>
+      </div>
+      <div class="project">
+        <button class="show-photo" onclick="showPhoto('le.jpeg')">Photo2</button>
+      </div>
+    </section>
+    
+    <section id="photo-modal">
+      <img id="modal-image" alt="Project Photo">
+      <button class="close-modal" onclick="closeModal()">Close</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
