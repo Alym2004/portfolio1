@@ -64,12 +64,18 @@ body {
   }
   
   .close-modal {
-    background-color: #fff;
+    /* background-color: #fff;
     color: #333;
     padding: 10px;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 10px; */
+    background-color: #761616;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+
   }
   .letter-spacing-example {
     letter-spacing: 1px;
